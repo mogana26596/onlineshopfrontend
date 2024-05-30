@@ -96,8 +96,8 @@ return (
       {cart.map((items) => (
         <div key={items._id}>
               <div className="col mb-5">
-                  <div className="card mb-4">
-                     <img className="card-img justify-content-center" src={items.images} alt="..." />
+                  <div className="card mb-4" style={{borderRadius:"20px",border: "2px solid rgb(60, 158, 40)"}}>
+                     <img className="card-img justify-content-center" style={{height:" 160px", width:"150px", margin:"10px 70px"}} src={items.images} alt="..." />
                      <div className="card-body p-4">
                           <div className="text-center">
                              <h5 className="fw-bolder">{items.name}</h5>
@@ -111,7 +111,7 @@ return (
     ))}
     </div>
     </div>
-    <button type="button" className="btn btn-success btn-lg me-4" style={{ width:"300px", marginLeft:"750px"}} onClick={proceedToBuy}>Proceed to Buy</button>
+    <button type="button" className="btn btn-success btn-lg me-4" style={{ width:"300px", marginLeft:"780px"}} onClick={proceedToBuy}>Proceed to Buy</button>
     </section>
 </div>
 );

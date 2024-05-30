@@ -25,11 +25,6 @@ body {
   
 }
 
-.card {
-  border-radius:20px;
-  border: 2px solid rgb(60, 158, 40);
-}
-
 .card-body {
   background-color: rgb(227, 250, 173);
   border-radius:20px;
@@ -40,18 +35,8 @@ body {
   border-radius:5px;
   margin:20px;
 }
-.py-5 {
-margin-left:280px;
-}
-
-.card-img{
-  height: 160px;
-  width:150px;
-  margin:10px 70px;
-}
 
 .card-title1{
-
   padding:20px 150px;
 }
 

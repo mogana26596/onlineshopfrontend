@@ -66,8 +66,8 @@ return (
        {products.map((product) => (
          <div style={{marginBottom:"30px"}} key={product._id}>
               <div className="col mb-5">
-                  <div className="card mb-4">
-                     <img className="card-img" src={product.images} alt="..." />
+                  <div className="card mb-4" style={{borderRadius:"20px",border: "2px solid rgb(60, 158, 40)"}} >
+                     <img className="card-img"  style={{height:" 160px", width:"150px", margin:"10px 70px"}} src={product.images} alt="..." />
                      <div className="card-body p-4">
                           <div className="text-center">
                              <h5 className="fw-bolder">{product.name}</h5>
